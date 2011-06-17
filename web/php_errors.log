@@ -1,0 +1,14 @@
+[17-Jun-2011 14:52:17] PHP Fatal error:  Class 'Thesmith\TodoBundle\Controller\ContactType' not found in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 17
+[17-Jun-2011 14:52:44] PHP Fatal error:  Class 'Thesmith\TodoBundle\Controller\TodoForm' not found in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 17
+[17-Jun-2011 15:02:09] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 19
+[17-Jun-2011 15:12:55] PHP Fatal error:  Call to a member function rpush() on a non-object in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 27
+[17-Jun-2011 15:22:42] PHP Parse error:  syntax error, unexpected '[' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 28
+[17-Jun-2011 15:23:04] PHP Parse error:  syntax error, unexpected '[' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 28
+[17-Jun-2011 15:23:06] PHP Parse error:  syntax error, unexpected '[' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 28
+[17-Jun-2011 15:23:10] PHP Parse error:  syntax error, unexpected '[' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 28
+[17-Jun-2011 15:23:57] PHP Parse error:  syntax error, unexpected '[' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 28
+[17-Jun-2011 15:24:06] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '{' or '$' in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Controller/DefaultController.php on line 28
+[17-Jun-2011 15:28:56] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Form/TodoForm.php on line 9
+[17-Jun-2011 15:34:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /Users/bens/Sites/Symfony/src/Thesmith/TodoBundle/Entity/Todo.php on line 6
+[17-Jun-2011 15:34:20] PHP Fatal error:  Call to undefined method Thesmith\TodoBundle\Entity\Todo::getName() in /Users/bens/Sites/Symfony/vendor/symfony/src/Symfony/Component/Form/FormFactory.php on line 190
+[17-Jun-2011 15:36:54] PHP Fatal error:  Call to undefined method Thesmith\TodoBundle\Entity\Todo::getName() in /Users/bens/Sites/Symfony/vendor/symfony/src/Symfony/Component/Form/FormFactory.php on line 190

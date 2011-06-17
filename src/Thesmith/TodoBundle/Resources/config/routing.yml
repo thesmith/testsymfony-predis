@@ -1,0 +1,4 @@
+todo:
+     type:     annotation
+     pattern:   /todo/{name}
+     defaults: { _controller: ThesmithTodoBundle:Default:index }

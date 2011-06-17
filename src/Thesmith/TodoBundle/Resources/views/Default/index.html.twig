@@ -1,0 +1,21 @@
+{# src/Thesmith/TodoBundle/Resources/views/Default/index.html.twig #}
+{% extends "AcmeDemoBundle::layout.html.twig" %}
+{% block title "TODO" %}
+
+{% block content %}
+    <h1>TODO List:</h1>
+    <form action="{{ path('todo', {'name': name}) }}" method="POST" id="todo_form">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.todo) }}
+
+        {{ form_rest(form) }}
+        <input type="submit" value="Add" class="symfony-button-grey" />
+    </form>
+    <ul>
+    {% for item in todoList %}
+
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
